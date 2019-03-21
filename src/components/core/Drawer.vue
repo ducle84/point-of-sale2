@@ -94,32 +94,42 @@ export default {
       {
         to: '/user-profile',
         icon: 'mdi-account',
-        text: 'User Profile'
+        text: 'Service Request'
       },
       {
         to: '/table-list',
         icon: 'mdi-clipboard-outline',
-        text: 'Table List'
+        text: 'Appointment Book'
       },
       {
         to: '/typography',
         icon: 'mdi-format-font',
-        text: 'Typography'
+        text: 'Giftcard'
       },
       {
         to: '/icons',
         icon: 'mdi-chart-bubble',
-        text: 'Icons'
+        text: 'Ticket Manager'
       },
       {
         to: '/maps',
         icon: 'mdi-map-marker',
-        text: 'Maps'
+        text: 'Reports'
+      },
+      {
+        to: '/maps',
+        icon: 'mdi-map-marker',
+        text: 'Owner Setup'
       },
       {
         to: '/notifications',
         icon: 'mdi-bell',
         text: 'Notifications'
+      },
+      {
+        to: '/notifications',
+        icon: 'mdi-bell',
+        text: 'Logout'
       }
     ],
     responsive: false
