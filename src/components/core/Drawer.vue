@@ -57,19 +57,6 @@
             v-text="link.text"
           />
         </v-list-tile>
-        <v-list-tile
-          disabled
-          active-class="primary"
-          class="v-list-item v-list__tile--buy"
-          to="/upgrade"
-        >
-          <v-list-tile-action>
-            <v-icon>mdi-package-up</v-icon>
-          </v-list-tile-action>
-          <v-list-tile-title class="font-weight-light">
-            Upgrade To PRO
-          </v-list-tile-title>
-        </v-list-tile>
       </v-layout>
     </v-img>
   </v-navigation-drawer>
@@ -92,33 +79,38 @@ export default {
         text: 'Dashboard'
       },
       {
-        to: '/user-profile',
-        icon: 'mdi-account',
+        to: '/service-request',
+        icon: 'mdi-atom',
         text: 'Service Request'
       },
       {
-        to: '/table-list',
-        icon: 'mdi-clipboard-outline',
+        to: '/appointment-book',
+        icon: 'mdi-calendar-edit',
         text: 'Appointment Book'
       },
       {
-        to: '/typography',
-        icon: 'mdi-format-font',
+        to: '/customer',
+        icon: 'mdi-account-search-outline',
+        text: 'Customer'
+      },
+      {
+        to: '/giftcard',
+        icon: 'mdi-certificate',
         text: 'Giftcard'
       },
       {
-        to: '/icons',
-        icon: 'mdi-chart-bubble',
+        to: '/ticket-manager',
+        icon: 'mdi-firebase',
         text: 'Ticket Manager'
       },
       {
-        to: '/maps',
-        icon: 'mdi-map-marker',
+        to: '/reports',
+        icon: 'mdi-file-chart',
         text: 'Reports'
       },
       {
-        to: '/maps',
-        icon: 'mdi-map-marker',
+        to: '/owner-setup',
+        icon: 'mdi-settings-outline',
         text: 'Owner Setup'
       },
       {
@@ -127,8 +119,8 @@ export default {
         text: 'Notifications'
       },
       {
-        to: '/notifications',
-        icon: 'mdi-bell',
+        to: '/logout',
+        icon: 'mdi-logout',
         text: 'Logout'
       }
     ],

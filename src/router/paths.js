@@ -10,34 +10,41 @@ export default [
     view: 'Dashboard'
   },
   {
-    path: '/user-profile',
-    name: 'User Profile',
-    view: 'UserProfile'
+    path: '/service-request',
+    name: 'Service Request',
+    view: 'ServiceRequest'
   },
   {
-    path: '/table-list',
-    name: 'Table List',
-    view: 'TableList'
+    path: '/appointment-book',
+    name: 'Appointment Book',
+    view: 'AppointmentBook'
   },
   {
-    path: '/typography',
-    view: 'Typography'
+    path: '/customer',
+    view: 'Customer'
   },
   {
-    path: '/icons',
-    view: 'Icons'
+    path: '/giftcard',
+    view: 'Giftcard'
   },
   {
-    path: '/maps',
-    view: 'Maps'
+    path: '/ticket-manager',
+    view: 'TicketManager'
+  },
+  {
+    path: '/reports',
+    view: 'Reports'
+  },
+  {
+    path: '/owner-setup',
+    view: 'OwnerSetup'
   },
   {
     path: '/notifications',
     view: 'Notifications'
   },
   {
-    path: '/upgrade',
-    name: 'Upgrade to PRO',
-    view: 'Upgrade'
+    path: '/logout',
+    view: 'Logout'
   }
 ]
